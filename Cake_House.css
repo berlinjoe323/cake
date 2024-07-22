@@ -1,0 +1,180 @@
+/* Style for gallery */
+.image-gallery img {
+  height: 200px;
+  width: 250px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  transition: transform 0.3s, border-color 0.3s;
+  margin-top: 35px;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+  opacity: 0.7;
+}
+
+#gallery{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+#product{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+/* Styling for product */
+
+.card {
+  height: 365px;
+  width: 236px;
+  border-radius: 5%;
+  transition: 0.5s;
+  box-shadow:3px 2px 5px rgb(239, 135, 173);
+}
+
+.card-body img {
+  height: 230px;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+
+.card:hover {
+  box-shadow:  -5px -5px 5px aqua;
+}
+
+.hiding-product {
+  display: none;
+}
+
+#show-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-body h5:hover {
+  color: plum;
+}
+/* Styling for navigation bar */
+nav {
+  background-color: rgb(239, 135, 173);
+  position: fixed;
+}
+#mynavbar {
+  color: white;
+}
+
+/* Styling for footer */
+.footer {
+  padding: 40px 0;
+  background-color: rgb(239, 135, 173);
+}
+.footer img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul a:hover {
+  opacity: 0.8;
+}
+
+.footer p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  font-size: medium;
+}
+
+.footer ul li a:hover {
+  color: #b97a57;
+}
+
+.footer p:hover {
+  color: #b97a57;
+}
+
+/* marquee */
+
+marquee {
+  text-shadow: 5px 3px 2px aquamarine;
+  background-color: rgb(239, 135, 173);
+  width: 100%;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+/* full body */
+
+h1 {
+  text-shadow: 5px 3px 5px gray;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/* About */
+
+.img {
+  height: 350px;
+  width: 350px;
+}
+#about p h6 ul li{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/* contact */
+#img {
+  height: 300px;
+  width: 300px;
+}
+.details{
+  background-color: white;
+  font-family: serif;
+  font-size:larger;
+}
+
+/* #about {
+  margin-top:
+  background-color: black;
+} */
+
+/* body */
+/* body{
+  padding-top: 68px;
+} */
